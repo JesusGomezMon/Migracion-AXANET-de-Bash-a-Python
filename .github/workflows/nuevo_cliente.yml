@@ -1,0 +1,13 @@
+name: Nuevo Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Se creó un nuevo cliente"
+      - run: echo "Notificando a Juan Perez"
+      - run: echo "Notificando a Ana Lopez"

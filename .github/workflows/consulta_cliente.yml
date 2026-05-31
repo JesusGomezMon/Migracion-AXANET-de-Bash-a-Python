@@ -1,0 +1,11 @@
+name: Consulta Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  consulta:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Consulta realizada"

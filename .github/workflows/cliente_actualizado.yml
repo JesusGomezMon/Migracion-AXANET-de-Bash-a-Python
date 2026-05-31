@@ -1,0 +1,11 @@
+name: Cliente Actualizado
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Cliente actualizado"

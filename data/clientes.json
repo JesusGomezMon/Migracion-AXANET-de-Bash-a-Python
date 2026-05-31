@@ -1,0 +1,14 @@
+{
+    "Juan": {
+        "id": 1,
+        "correo": "juan@gmail.com",
+        "telefono": "9981234567",
+        "direccion": "Cancun"
+    },
+    "Jesus": {
+        "id": 2,
+        "correo": "jesusgomezmon@gmai.com",
+        "telefono": "9981225937",
+        "direccion": "real las quintas"
+    }
+}
